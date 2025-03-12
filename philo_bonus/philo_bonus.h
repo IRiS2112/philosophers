@@ -21,6 +21,8 @@
 # include <unistd.h>
 # include <signal.h>
 # include <stdio.h>
+# include <fcntl.h>
+# include <sys/wait.h>
 
 typedef struct s_data	t_data;
 
